@@ -42,6 +42,7 @@ li {
 .section-title {
   margin: 0;
   font-size: 22px;
+  font-weight: 700
 }
 .card {
   background-color: white;
@@ -84,14 +85,15 @@ header nav ul {
 }
 header nav ul li {
   padding-top: 16px;
+  border-top: solid 2px #fff
 }
 header nav ul li a {
   font-size: 14px
 }
-header nav ul li:first-child {
-  border-top: solid 2px #0065FC
+header nav ul li:hover {
+  border-color: #0065FC
 }
-header nav ul li:first-child a {
+header nav ul li:hover a {
   color: #0065FC
 }
 /*Recherche et Filtre*/
